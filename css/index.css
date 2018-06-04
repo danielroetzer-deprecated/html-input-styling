@@ -1,0 +1,44 @@
+.input-wrapper {
+    display: flex;
+    align-items: stretch;
+
+    border: 1px solid #e7297a;
+    border-radius: 5px;
+
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    margin: 10px 0;
+}
+
+
+.input-prepend {
+    display: flex;
+    text-align: right;
+    background-color: #e7297a;
+    color: white;
+
+    padding: 6px 12px;
+    border-right: 1px solid #e7297a;
+    border-radius: 2px 0 0 2px;
+
+    white-space: nowrap; /* otherwise text would break on whitespace*/
+
+    line-height: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+input {
+    display: flex;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+
+    padding: 6px 12px;
+
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+}
